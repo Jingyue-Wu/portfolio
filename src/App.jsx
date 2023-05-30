@@ -18,7 +18,6 @@ function App() {
           </div>
           <div>
             <Outlet />
-
           </div>
         </div>
       </div>

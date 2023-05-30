@@ -2,10 +2,14 @@ export default function About() {
 
     return (
         <>
-            <div className="w-100 h-full m-5 ml-0 text-start">
-                <h1 className='text-3xl font-bold'>about me</h1>
+            <div className="max-w-5xl h-full m-5 ml-8 lg:ml-0 text-start">
+                <h1 className='text-3xl font-bold'>about me!</h1>
                 <br />
-                <p>aldkfja;lfal;fsdkjallorem ipsum studsfafasdfasdfasfdasdfasfasdfasdfasfdasdfas dasdf asdf sadf ff</p>
+
+                <p >Welcome to my web-home!</p>
+                <br />
+                <p>gdsafa sdfasdgasddd  ddddddd ddddd ddddd dddddd ddddddd dddddf asfd asf.</p>
+                <br />
             </div>
         </>
     );

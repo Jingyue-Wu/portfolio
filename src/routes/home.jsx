@@ -3,7 +3,7 @@ export default function Home() {
 
     return (
         <>
-            <div className="w-100 h-full m-5 ml-8 lg:ml-0 text-start">
+            <div className="max-w-5xl h-full m-5 ml-8 lg:ml-0 text-start">
                 <h1 className='text-3xl font-bold'>hi, im jingyue!</h1>
                 <br />
 
@@ -19,13 +19,12 @@ export default function Home() {
 
                 <br />
 
-                <ul className="flex gap-5">
+                <ul className="flex gap-5 mb-20">
                     <li><a href="https://www.linkedin.com/in/jingyue-wu/"><img className="w-6 h-6" src="linkedin.svg"></img></a></li>
                     <li><a href="https://github.com/Jingyue-Wu"><img className="w-6 h-6" src="github.svg"></img></a></li>
                     <li><a href="https://www.instagram.com/euygnij/"><img className="w-6 h-6" src="instagram.svg"></img></a></li>
                     <li><a href="https://bento.me/jingyue"><img className="w-6 h-6" src="bento.svg"></img></a></li>
                 </ul>
-
             </div>
         </>
     );
