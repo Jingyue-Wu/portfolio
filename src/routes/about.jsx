@@ -1,5 +1,4 @@
 export default function About() {
-
     return (
         <>
             <div className="max-w-5xl h-full m-5 ml-8 lg:ml-0 text-start">
