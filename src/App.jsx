@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import './App.css';
 
 
@@ -11,10 +11,23 @@ function App() {
           <div className="flex justify-center lg:flex-start mb-16 lg:mb-0">
             {/* Nav */}
             <ul className='fixed flex m-auto items-end justify-center gap-6 lg:flex-col lg:gap-3 mt-0 lg:mt-14'>
-              <li><Link to={``}>Home</Link></li>
-              <li><Link to={`about`}>About</Link></li>
-              <li><Link to={`projects`}>Projects</Link></li>
-              <li><Link to={`resume`}>Resume</Link></li>
+              <li><NavLink style={({ isActive }) => ({
+                color: isActive ? '#818dc7' : '#1c2554'
+              })} to={``}>Home</NavLink></li>
+
+              <li><NavLink style={({ isActive }) => ({
+                color: isActive ? '#818dc7' : '#1c2554'
+              })} to={`about`}>About</NavLink></li>
+
+
+              <li><NavLink style={({ isActive }) => ({
+                color: isActive ? '#818dc7' : '#1c2554'
+              })} to={`projects`}>Projects</NavLink></li>
+
+
+              <li><NavLink style={({ isActive }) => ({
+                color: isActive ? '#818dc7' : '#1c2554'
+              })} to={`resume`}>Resume</NavLink></li>
             </ul>
           </div>
           <div className="lg:w-[600px]">

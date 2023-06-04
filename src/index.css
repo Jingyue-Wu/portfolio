@@ -6,6 +6,27 @@
     background-color: #cbe6ff;
 }
 
-html {
-    width: 100vw;
+html{
+   scrollbar-gutter: stable both-edges;
 }
+body::-webkit-scrollbar {
+    width: 0.6em;
+    height: 0.6em;
+    background-color: transparent;
+    overflow-x: hidden;
+}
+
+/* Create custom scrollbar */
+body::-webkit-scrollbar-thumb {
+    border-radius: 1em;
+    background-color: #8fa4b8;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #7ea6cc;
+}
+
+
+/* 'primary': '#5C6AC4',
+'secondary': '#B2BCE3',
+'accent': '#8391C5', */
