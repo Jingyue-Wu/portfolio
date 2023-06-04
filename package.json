@@ -1,5 +1,6 @@
 {
   "homepage": "https://jingyuewu.me",
+  "private": "false",
   "name": "portfolio",
   "version": "0.0.0",
   "type": "module",
