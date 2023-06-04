@@ -1,12 +1,15 @@
+import Projectcard from '/src/components/projectcard.jsx';
+
+
 export default function Projects() {
     return (
         <>
-            <div className="max-w-5xl h-full m-5 ml-8 lg:ml-0 text-start">
+            <div className="h-full m-5 ml-8 lg:ml-0 text-start lg:w-[600px]">
                 <p>check out some of my favorite projects here! </p>
-                <p>ASDFASFASDFASDFsadfasdfasdfasdfasdfasdf asdfasdfas fsda as asf as fsadasfd asdfasdfasf </p>
 
+
+                <Projectcard name="hi"/>
             </div>
-
         </>
     );
 }

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    background-color: #cbe6ff;
+}
+
+html {
+    width: 100vw;
+}
