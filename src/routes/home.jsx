@@ -15,9 +15,9 @@ const hobbiesList = [
     "walking through museums 🏛️",
 ];
 
+let index = Math.floor((Math.random() + 0.0001) * (hobbiesList.length));
 
 export default function Home() {
-    let index = Math.floor((Math.random() + 0.0001) * (hobbiesList.length));
 
     const [hobbies, setHobbies] = useState(hobbiesList[index]);
     console.log(index);

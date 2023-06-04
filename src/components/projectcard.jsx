@@ -75,7 +75,7 @@ export default function Projectcard() {
             <Section
                 name={"386 robotics"}
                 description={"nonprofit competitive robotics organization"}
-                link={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                link={""}
             />
         </>
     );
