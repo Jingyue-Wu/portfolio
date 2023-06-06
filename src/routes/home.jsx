@@ -38,7 +38,7 @@ export default function Home() {
                 <p> kick back, relax and grab yourself a beverage!</p>
                 <br />
                 <p>
-                    i&apos;m based in toronto, ontario &#127809; where i am studying software engineering. when i&apos;m not the grind, you can find me going out to take photos, learning about blockchain, and{" "}
+                    i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and{" "}
                     <a href="#" className='underline' onClick={handleClick}>{hobbies}.</a>
                 </p>
                 <br />
