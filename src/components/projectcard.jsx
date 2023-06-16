@@ -56,7 +56,7 @@ export default function Projectcard() {
             <Section
                 name={"game of life"}
                 description={"interface for conway's cellular automaton"}
-                link={"https://youtube.com/"}
+                link={"https://github.com/Jingyue-Wu/game-of-life"}
             />
 
 

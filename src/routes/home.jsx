@@ -39,7 +39,7 @@ export default function Home() {
                 <br />
                 <p>
                     i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and{" "}
-                    <a href="#" className='underline' onClick={handleClick}>{hobbies}.</a>
+                    <p className='underline hover:cursor-pointer select-none' onClick={handleClick}>{hobbies}.</p>
                 </p>
                 <br />
                 <p>Reach out anytime at <a className='underline' href="mailto:wu588@mcmaster.ca">wu588 at mcmaster dot ca</a></p>
