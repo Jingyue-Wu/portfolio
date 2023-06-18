@@ -1,5 +1,8 @@
 import Footer from '/src/components/footer.jsx';
+import FadeIn from '/src/components/animation.jsx';
 import { useState } from 'react';
+import { Transition } from "@headlessui/react";
+import { InView } from 'react-intersection-observer';
 
 const hobbiesList = [
     "biking along the lake with friends 🚲",
@@ -29,25 +32,42 @@ export default function Home() {
 
     return (
         <>
-            <div className="h-full m-5 ml-8 mb-20 lg:ml-0 text-start">
-                <h1 className='text-3xl font-bold'>hi, im jingyue!</h1>
-                <br />
-
-                <p >step into my digital sanctuary &#127795;</p>
-                <br />
-                <p> kick back, relax and grab yourself a beverage!</p>
-                <br />
-                <p>
-                    i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and{" "}
-                    <p className='underline hover:cursor-pointer select-none' onClick={handleClick}>{hobbies}.</p>
-                </p>
-                <br />
-                <p>Reach out anytime at <a className='underline' href="mailto:wu588@mcmaster.ca">wu588 at mcmaster dot ca</a></p>
-
-                <br />
-
-                <Footer />
-            </div>
+            <InView>
+                {({ inView, ref }) => (
+                    <div ref={ref}>
+                        <Transition.Root show={inView}>
+                            <div className="h-full m-5 ml-8 mb-20 lg:ml-0 text-start">
+                                <FadeIn delay="delay-[0ms]">
+                                    <h1 className='text-3xl font-bold'>hi, im jingyue!</h1>
+                                </FadeIn>
+                                <br />
+                                <FadeIn delay="delay-[100ms]">
+                                    <p >step into my digital sanctuary. &#127795;</p>
+                                </FadeIn>
+                                <br />
+                                <FadeIn delay="delay-[200ms]">
+                                    <p> kick back, relax and grab yourself a beverage!</p>
+                                </FadeIn>
+                                <br />
+                                <FadeIn delay="delay-[300ms]">
+                                    <p>
+                                        i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and{" "}
+                                        <p className='underline hover:cursor-pointer select-none' onClick={handleClick}>{hobbies}.</p>
+                                    </p>
+                                </FadeIn>
+                                <br />
+                                <FadeIn delay="delay-[500ms]">
+                                    <p>Reach out anytime at <a className='underline' href="mailto:wu588@mcmaster.ca">wu588 at mcmaster dot ca</a></p>
+                                </FadeIn>
+                                <br />
+                                <FadeIn delay="delay-[600ms]">
+                                    <Footer />
+                                </FadeIn>
+                            </div>
+                        </Transition.Root>
+                    </div>
+                )}
+            </InView>
         </>
     );
 }
