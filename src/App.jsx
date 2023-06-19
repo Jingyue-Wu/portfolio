@@ -9,7 +9,7 @@ function App() {
         <div className="flex flex-col m-auto mt-5 lg:mt-[15vh] lg:gap-28 lg:flex-row max-w-3xl ">
           <div className="flex justify-center lg:flex-start mb-16 lg:mb-0">
             {/* Nav */}
-            <ul className='fixed flex m-auto items-end justify-center gap-6 lg:flex-col lg:gap-3 mt-0 lg:mt-14'>
+            <ul className='fixed flex m-auto items-end justify-center gap-6 lg:flex-col lg:gap-3 mt-0 lg:mt-14 z-10'>
               <li><NavLink style={({ isActive }) => ({
                 color: isActive ? '#818dc7' : '#1c2554'
               })} to={``}>Home</NavLink></li>

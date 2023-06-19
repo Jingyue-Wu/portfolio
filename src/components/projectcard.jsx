@@ -89,7 +89,7 @@ export default function Projectcard() {
                                 <Section
                                     name={"photography"}
                                     description={"some of my photography work!"}
-                                    link={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+                                    link={"/gallery"}
                                 />
                             </FadeIn>
 
