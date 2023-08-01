@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import FadeIn from '/src/components/animation.jsx';
+import FadeIn from '/src/components/Animation.jsx';
 import { Transition } from "@headlessui/react";
 import { InView } from 'react-intersection-observer';
 import './Follower.css';
