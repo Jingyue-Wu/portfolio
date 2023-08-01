@@ -1,4 +1,4 @@
-import FadeIn from '/src/components/animation.jsx';
+import FadeIn from '/src/components/Animation.jsx';
 import { Transition } from "@headlessui/react";
 import { InView } from 'react-intersection-observer';
 
@@ -20,11 +20,15 @@ export default function About() {
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[200ms]">
-                                    <p>i&apos;ve always had a broad range of interests, and strong desire to problem solve and learn new things. i&apos;m extremely passionate about entrepreneurship, software development, decentralized finance and photography! </p>
+                                    <p>i&apos;ve always had a broad range of interests, and strong desire to problem solve and learn new things. my goal is to create a positive change in the world through the use of creative technology. </p>
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[300ms]">
-                                    <p>currently learning more about web development and UI/UX!</p>
+                                    <p>i&apos;m extremely passionate about entrepreneurship, software development, decentralized finance and photography!</p>
+                                </FadeIn>
+                                <br />
+                                <FadeIn delay="delay-[400ms]">
+                                    <p>currently i&apos;m learning more about web development and UI/UX!</p>
                                 </FadeIn>
                                 <br />
                             </Transition.Root>

@@ -1,5 +1,5 @@
-import FadeIn from '/src/components/animation.jsx';
-import Image from '/src/components/image.jsx';
+import FadeIn from '/src/components/Animation.jsx';
+import Image from '/src/components/Image.jsx';
 import { Transition } from "@headlessui/react";
 import { InView } from 'react-intersection-observer';
 
