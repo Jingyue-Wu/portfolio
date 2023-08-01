@@ -1,0 +1,13 @@
+.follower {
+    opacity: 0;
+    height: auto;
+    max-width: 250px;
+    transition: ease 0.2s opacity;    
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.group:hover img {
+    opacity: 1;
+}
