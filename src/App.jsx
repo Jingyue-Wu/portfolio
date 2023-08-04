@@ -22,11 +22,6 @@ function App() {
               <li><NavLink style={({ isActive }) => ({
                 color: isActive ? '#818dc7' : '#1c2554'
               })} to={`projects`}>Projects</NavLink></li>
-
-
-              {/* <li><NavLink style={({ isActive }) => ({
-                color: isActive ? '#818dc7' : '#1c2554'
-              })} to={`resume`}>Resume</NavLink></li> */}
             </ul>
           </div>
           <div className="lg:w-[600px]">
