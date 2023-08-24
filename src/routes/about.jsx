@@ -20,7 +20,7 @@ export default function About() {
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[200ms]">
-                                    <p>i&apos;ve always had a broad range of interests, and strong desire to problem solve and learn new things. my goal is to create a positive change in the world through the use of creative technology. </p>
+                                    <p>i&apos;ve always had a broad range of interests, and strong desire to problem solve and learn new things. my goal is to create a positive change in the world using creative innovations and technologies. </p>
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[300ms]">

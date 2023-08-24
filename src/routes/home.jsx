@@ -40,19 +40,15 @@ export default function Home() {
                                 <FadeIn delay="delay-[0ms]">
                                     <h1 className='text-3xl font-bold'>hi, im jingyue</h1>
                                 </FadeIn>
-                                {/* <br /> */}
+                                <br />
                                 <FadeIn delay="delay-[100ms]">
-                                    {/* <p >step into my digital sanctuary! &#127795;</p> */}
+                                    <p >step into my digital sanctuary! &#127795;</p>
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[200ms]">
-                                    {/* <p>
+                                    <p>
                                         i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and{" "}
                                         <p className='underline hover:cursor-pointer select-none' onClick={handleClick}>{hobbies}.</p>
-                                    </p> */}
-
-                                    <p>
-                                        i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and going on adventures!
                                     </p>
                                 </FadeIn>
                                 <br />

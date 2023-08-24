@@ -36,20 +36,28 @@ export default function Projectcard() {
                             <FadeIn delay="delay-[0ms]">
                                 <Section
                                     name={"bridgeup"}
-                                    description={"helps commuters avoid long delays at Welland Canal bridges"}
+                                    description={"helps commuters avoid long delays at welland canal bridges"}
                                     link={"https://github.com/Jingyue-Wu/bridge-up"}
-                                />
-                            </FadeIn>
-                            
-                            <FadeIn delay="delay-[0ms]">
-                                <Section
-                                    name={"billow"}
-                                    description={"track of all of your spending and bills"}
-                                    link={"https://github.com/Jingyue-Wu/billow"}
                                 />
                             </FadeIn>
 
                             <FadeIn delay="delay-[100ms]">
+                                <Section
+                                    name={"pantry palate"}
+                                    description={"discover new foods while helping the environment"}
+                                    link={"https://github.com/Jingyue-Wu/pantry-palate"}
+                                />
+                            </FadeIn>
+                            
+                            <FadeIn delay="delay-[200ms]">
+                                <Section
+                                    name={"billow"}
+                                    description={"track of all of your spending and bills with ocr"}
+                                    link={"https://github.com/Jingyue-Wu/billow"}
+                                />
+                            </FadeIn>
+
+                            <FadeIn delay="delay-[300ms]">
                                 <Section
                                     name={"switchify"}
                                     description={"seamlessly transfer playlists between spotify and youtube"}
@@ -59,7 +67,7 @@ export default function Projectcard() {
 
 
 
-                            <FadeIn delay="delay-[300ms]">
+                            <FadeIn delay="delay-[400ms]">
                                 <Section
                                     name={"crypto ticker"}
                                     description={"sleek desktop smart display that shows real-time market trends and weather"}
@@ -67,7 +75,7 @@ export default function Projectcard() {
                                 />
                             </FadeIn>
 
-                            <FadeIn delay="delay-[200ms]">
+                            <FadeIn delay="delay-[500ms]">
                                 <Section
                                     name={"studyspot"}
                                     description={"improve your productivity through gamification and web3"}
@@ -75,7 +83,7 @@ export default function Projectcard() {
                                 />
                             </FadeIn>
 
-                            <FadeIn delay="delay-[400ms]">
+                            <FadeIn delay="delay-[600ms]">
                                 <Section
                                     name={"doodleguesser"}
                                     description={"multiplayer drawing and guessing game"}
@@ -83,7 +91,7 @@ export default function Projectcard() {
                                     />
                             </FadeIn>
 
-                            <FadeIn delay="delay-[500ms]">
+                            <FadeIn delay="delay-[700ms]">
                                 <Section
                                     name={"game of life"}
                                     description={"clean interface for conway's famous cellular automaton"}
@@ -91,27 +99,19 @@ export default function Projectcard() {
                                 />
                             </FadeIn>
 
-                            <FadeIn delay="delay-[600ms]">
+                            <FadeIn delay="delay-[800ms]">
                                 <Section
                                     name={"diep"}
-                                    description={"minimalist single player 2D shooter game based on diep.io"}
+                                    description={"minimalist single player 2D shooter game"}
                                     link={"https://github.com/Jingyue-Wu/diep-game"}
                                 />
                             </FadeIn>
 
-                            <FadeIn delay="delay-[700ms]">
+                            <FadeIn delay="delay-[900ms]">
                                 <Section
                                     name={"photography"}
-                                    description={"some of my photography work!"}
+                                    description={"check out some of my photography work!"}
                                     link={"/gallery"}
-                                />
-                            </FadeIn>
-
-                            <FadeIn delay="delay-[800ms]">
-                                <Section
-                                    name={"386 robotics"}
-                                    description={"nonprofit competitive robotics organization"}
-                                    link={"https://386robotics.weebly.com/"}
                                 />
                             </FadeIn>
                         </Transition.Root>

@@ -6,7 +6,7 @@ import { InView } from 'react-intersection-observer';
 export default function Gallery() {
     return (
         <>
-            <div className="h-full m-5 ml-8 mb-20 lg:ml-0 text-start lg:w-[600px]">
+            <div className="h-full m-5 ml-8 mb-40 lg:ml-0 text-start lg:w-[600px]">
                 <InView>
                     {({ inView, ref }) => (
                         <div ref={ref}>
@@ -28,6 +28,8 @@ export default function Gallery() {
                                             <Image image={'/photos/16.jpg'} />
                                             <Image image={'/photos/17.jpg'} />
                                             <Image image={'/photos/32.jpg'} />
+                                            <Image image={'/photos/43.jpg'} />
+                                            <Image image={'/photos/46.jpg'} />
                                         </div>
                                     </FadeIn>
 
@@ -47,6 +49,7 @@ export default function Gallery() {
                                             <Image image={'/photos/19.jpg'} />
                                             <Image image={'/photos/20.jpg'} />
                                             <Image image={'/photos/30.jpg'} />
+                                            <Image image={'/photos/44.jpg'} />
                                         </div>
                                     </FadeIn>
 
@@ -65,6 +68,7 @@ export default function Gallery() {
                                             <Image image={'/photos/28.jpg'} />
                                             <Image image={'/photos/29.jpg'} />
                                             <Image image={'/photos/31.jpg'} />
+                                            <Image image={'/photos/45.jpg'} />
                                         </div>
                                     </FadeIn>
                                 </div>
