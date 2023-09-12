@@ -3,7 +3,6 @@ import FadeIn from '/src/components/Animation.jsx';
 import { Transition } from "@headlessui/react";
 import { InView } from 'react-intersection-observer';
 
-
 export default function Projects() {
     return (
         <>
@@ -13,9 +12,17 @@ export default function Projects() {
                         <div ref={ref}>
                             <Transition.Root show={inView}>
                                 <FadeIn delay="delay-[700ms]">
-                                    <p>check out some of my favorite projects here! </p>
+                                    <p>check out some of my favorite projects here!</p>
                                 </FadeIn>
                                 <Projectcard />
+
+                                {/* <FadeIn delay="delay-[1500ms]">
+                                    <br />
+                                    <a href="https://github.com/Jingyue-Wu" className='flex gap-2 items-center'>
+                                        <p>find the rest on <a className='underline' href="https://github.com/Jingyue-Wu">github</a></p>
+                                        <img className="w-6 h-6" src="github.svg"></img>
+                                    </a>
+                                </FadeIn> */}
                             </Transition.Root>
                         </div>
                     )}

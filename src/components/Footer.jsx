@@ -10,6 +10,3 @@ export default function Footer() {
         </>
     );
 }
-
-// transition
-// hover:scale-110 transition-all duration-75

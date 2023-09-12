@@ -6,7 +6,6 @@ export default function About() {
     return (
         <>
             <div className="h-full m-5 ml-8 mb-20 lg:ml-0 text-start lg:w-[600px]">
-
                 <InView>
                     {({ inView, ref }) => (
                         <div ref={ref}>

@@ -21,10 +21,7 @@ const hobbiesList = [
 let index = Math.floor((Math.random() + 0.0001) * (hobbiesList.length));
 
 export default function Home() {
-
     const [hobbies, setHobbies] = useState(hobbiesList[index]);
-    console.log(index);
-
     const handleClick = () => {
         index = (index + 1) % hobbiesList.length;
         setHobbies(hobbiesList[index]);
@@ -48,7 +45,7 @@ export default function Home() {
                                 <FadeIn delay="delay-[200ms]">
                                     <p>
                                         i&apos;m based in toronto, ontario &#127809; where i study software engineering. when i&apos;m not on the grind, you can find me going out to take photos, learning about blockchain, and{" "}
-                                        <p className='underline hover:cursor-pointer select-none' onClick={handleClick}>{hobbies}.</p>
+                                        <p className='underline hover:cursor-pointer select-none w-fit' onClick={handleClick}>{hobbies}.</p>
                                     </p>
                                 </FadeIn>
                                 <br />

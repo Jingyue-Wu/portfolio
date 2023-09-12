@@ -4,7 +4,7 @@ export default function Image({ image }) {
 
     return (
         <>
-            <img className='w-full mt-3 align-middle' loading="eager" src={image} alt="" />
+            <img className='w-80 mt-3 align-middle' loading="eager" src={image} alt="" />
         </>
     );
 }
