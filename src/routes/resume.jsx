@@ -6,9 +6,8 @@ export default function Resume() {
                 <br />
                 <p className="text-left">here is my resume!</p>
                 <br />
-                <iframe className=" mr-8 lg:mr-0 mb-20 flex grow " src="https://drive.google.com/file/d/11K3GxPcNXGPjLfDtqnOH0l7xSYPeESXh/preview" width="590" height="757" allow="autoplay"></iframe>
+                <iframe className=" mr-8 lg:mr-0 mb-20 flex grow " src="" width="590" height="757" allow="autoplay"></iframe>
             </div>
-
         </>
     );
 }

@@ -16,7 +16,6 @@ body::-webkit-scrollbar {
     overflow-x: hidden;
 }
 
-/* Create custom scrollbar */
 body::-webkit-scrollbar-thumb {
     border-radius: 1em;
     background-color: #8fa4b8;

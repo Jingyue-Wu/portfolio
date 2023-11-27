@@ -16,13 +16,14 @@ export default function Projects() {
                                 </FadeIn>
                                 <Projectcard />
 
-                                {/* <FadeIn delay="delay-[1500ms]">
+                                <FadeIn delay="delay-[1500ms]">
                                     <br />
-                                    <a href="https://github.com/Jingyue-Wu" className='flex gap-2 items-center'>
-                                        <p>find the rest on <a className='underline' href="https://github.com/Jingyue-Wu">github</a></p>
+
+                                    <div className="flex gap-2 items-center">
+                                        <p>more on <a className="underline" href="https://github.com/Jingyue-Wu">github</a></p>
                                         <img className="w-6 h-6" src="github.svg"></img>
-                                    </a>
-                                </FadeIn> */}
+                                    </div>
+                                </FadeIn>
                             </Transition.Root>
                         </div>
                     )}
