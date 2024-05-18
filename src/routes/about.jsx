@@ -15,7 +15,7 @@ export default function About() {
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[100ms]">
-                                    <img className='h-60' src="img1.jpg" alt="" />
+                                    <img className='h-60 rounded-2xl' src="img1.jpg" alt="" />
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[300ms]">
