@@ -1,14 +1,21 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types"
 
 export default function Image({ image }) {
-
-    return (
-        <>
-            <img className='w-80 mt-3 align-middle' loading="eager" src={image} alt="" />
-        </>
-    );
+  return (
+    <>
+      <a href={image} target="_blank" rel="noreferrer">
+        <img
+          className="mt-3 w-80 align-middle"
+          loading="eager"
+          src={image}
+          alt=""
+        />
+      </a>
+    </>
+  )
 }
 
 Image.propTypes = {
-    image: PropTypes.string.isRequired,
-};
+  image: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+}

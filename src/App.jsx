@@ -10,19 +10,19 @@ function App() {
             {/* Nav */}
             <ul className='fixed flex m-auto items-end justify-center gap-6 lg:flex-col lg:gap-3 mt-0 lg:mt-14 z-10'>
               <li><NavLink style={({ isActive }) => ({
-                color: isActive ? '#818dc7' : '#1c2554'
+                color: isActive ? '#5C6AC4' : '#1c2554'
               })} to={``}>Home</NavLink></li>
 
               <li><NavLink style={({ isActive }) => ({
-                color: isActive ? '#818dc7' : '#1c2554'
+                color: isActive ? '#5C6AC4' : '#1c2554'
               })} to={`about`}>About</NavLink></li>
 
               <li><NavLink style={({ isActive }) => ({
-                color: isActive ? '#818dc7' : '#1c2554'
+                color: isActive ? '#5C6AC4' : '#1c2554'
               })} to={`projects`}>Projects</NavLink></li>
 
               <li><NavLink style={({ isActive }) => ({
-                color: isActive ? '#818dc7' : '#1c2554'
+                color: isActive ? '#5C6AC4' : '#1c2554'
               })} to={`gallery`}>Gallery</NavLink></li>
             </ul>
           </div>

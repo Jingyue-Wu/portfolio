@@ -22,6 +22,7 @@ export default function Gallery() {
                                             <Image image={'/photos/3.jpg'} />
                                             <Image image={'/photos/4.jpg'} />
                                             <Image image={'/photos/5.jpg'} />
+                                            <Image image={'/photos/47.jpg'} />
                                             <Image image={'/photos/6.jpg'} />
                                             <Image image={'/photos/7.jpg'} />
                                             <Image image={'/photos/15.jpg'} />
@@ -41,13 +42,13 @@ export default function Gallery() {
                                             <Image image={'/photos/8.jpg'} />
                                             <Image image={'/photos/9.jpg'} />
                                             <Image image={'/photos/10.jpg'} />
-                                            <Image image={'/photos/11.jpg'} />
                                             <Image image={'/photos/12.jpg'} />
+                                            <Image image={'/photos/28.jpg'} />
                                             <Image image={'/photos/13.jpg'} />
+                                            <Image image={'/photos/48.jpg'} />
                                             <Image image={'/photos/21.jpg'} />
                                             <Image image={'/photos/18.jpg'} />
                                             <Image image={'/photos/19.jpg'} />
-                                            <Image image={'/photos/20.jpg'} />
                                             <Image image={'/photos/30.jpg'} />
                                             <Image image={'/photos/44.jpg'} />
                                         </div>
@@ -59,13 +60,13 @@ export default function Gallery() {
                                             <Image image={'/photos/39.jpg'} />
                                             <Image image={'/photos/38.jpg'} />
                                             <Image image={'/photos/34.jpg'} />
-
+                                            <Image image={'/photos/49.jpg'} />
                                             <Image image={'/photos/22.jpg'} />
                                             <Image image={'/photos/24.jpg'} />
                                             <Image image={'/photos/25.jpg'} />
+                                            <Image image={'/photos/11.jpg'} />
                                             <Image image={'/photos/26.jpg'} />
                                             <Image image={'/photos/27.jpg'} />
-                                            <Image image={'/photos/28.jpg'} />
                                             <Image image={'/photos/29.jpg'} />
                                             <Image image={'/photos/31.jpg'} />
                                             <Image image={'/photos/45.jpg'} />
