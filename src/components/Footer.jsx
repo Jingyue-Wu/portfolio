@@ -5,7 +5,7 @@ export default function Footer() {
                 <li><a href="https://www.linkedin.com/in/jingyue-wu/"><img className="w-6 h-6" src="linkedin.svg"></img></a></li>
                 <li><a href="https://github.com/Jingyue-Wu"><img className="w-6 h-6" src="github.svg"></img></a></li>
                 <li><a href="https://www.instagram.com/euygnij/"><img className="w-6 h-6" src="instagram.svg"></img></a></li>
-                <li><a href="https://bento.me/jingyue"><img className="w-6 h-6" src="bento.svg"></img></a></li>
+                <li><a href="https://bento.me/jingyue"><img className="w-[21px] h-[21px] mt-[1px]" src="bento.svg"></img></a></li>
             </ul>
         </>
     );
