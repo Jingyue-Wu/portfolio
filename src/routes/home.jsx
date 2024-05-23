@@ -50,7 +50,7 @@ export default function Home() {
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[400ms]">
-                                    <p>Reach out anytime at <a className='underline' href="mailto:wu588@mcmaster.ca">wu588 at mcmaster dot ca</a></p>
+                                    <p>reach out anytime at <a className='underline' href="mailto:wu588@mcmaster.ca">wu588 at mcmaster dot ca</a></p>
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[500ms]">

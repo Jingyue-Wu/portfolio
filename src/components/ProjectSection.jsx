@@ -165,7 +165,7 @@ export default function ProjectSection() {
             description={
               "clipboard manager browser extension that allows you to copy and paste from anything"
             }
-            link={"https://github.com/Jingyue-Wu/bridge-up"}
+            link={"https://github.com/Jingyue-Wu/copybara"}
             image={"/projects/copybara.png"}
           />
         </FadeIn>
