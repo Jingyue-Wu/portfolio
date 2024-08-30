@@ -176,7 +176,7 @@ export default function ProjectSection() {
             description={
               "helps commuters avoid long delays at welland canal bridges"
             }
-            link={"https://github.com/Jingyue-Wu/bridge-up"}
+            link={"https://github.com/Jingyue-Wu/bridgeup"}
             image={"/projects/bridge-up.png"}
           />
         </FadeIn>
