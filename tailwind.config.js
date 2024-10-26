@@ -28,7 +28,8 @@ export default {
       },
     },
     colors: {
-      'background': '#DAE0F5',
+      // 'background': '#DAE0F5',
+      'background': '#0f1354',
       'light': '#F8F9FE',
       'primary': '#5C6AC4',
       'secondary': '#B2BCE3',

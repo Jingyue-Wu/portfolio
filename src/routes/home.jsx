@@ -35,7 +35,7 @@ export default function Home() {
                         <Transition.Root show={inView}>
                             <div className="h-full m-5 ml-8 mb-20 lg:ml-0 text-start">
                                 <FadeIn delay="delay-[0ms]">
-                                    <h1 className='text-3xl font-bold'>hi, im jingyue</h1>
+                                    <h1 className='text-3xl font-bold'>hi, im jingyue!</h1>
                                 </FadeIn>
                                 <br />
                                 <FadeIn delay="delay-[100ms]">

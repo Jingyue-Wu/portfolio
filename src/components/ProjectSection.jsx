@@ -75,16 +75,7 @@ export default function ProjectSection() {
           />
         </FadeIn>
 
-        <FadeIn delay="delay-[1100ms]">
-          <Section
-            name={"solaris"}
-            description={"aluminum 60% diy keyboard kit -coming soon"}
-            link={""}
-            image={"/projects/solaris.png"}
-          />
-        </FadeIn>
-
-        <FadeIn delay="delay-[900ms]">
+        {/* <FadeIn delay="delay-[900ms]">
           <Section
             name={"game of life"}
             description={
@@ -93,7 +84,7 @@ export default function ProjectSection() {
             link={"https://github.com/Jingyue-Wu/game-of-life"}
             image={"/projects/gameoflife.png"}
           />
-        </FadeIn>
+        </FadeIn> */}
 
         <FadeIn delay="delay-[700ms]">
           <Section
@@ -117,7 +108,7 @@ export default function ProjectSection() {
           />
         </FadeIn>
 
-        <FadeIn delay="delay-[500ms]">
+        {/* <FadeIn delay="delay-[500ms]">
           <Section
             name={"switchify"}
             description={
@@ -126,7 +117,7 @@ export default function ProjectSection() {
             link={"https://github.com/Jingyue-Wu/switchify"}
             image={"/projects/switchify.jpg"}
           />
-        </FadeIn>
+        </FadeIn> */}
 
         <FadeIn delay="delay-[400ms]">
           <Section
@@ -134,17 +125,6 @@ export default function ProjectSection() {
             description={"track of all of your spending and bills in one place"}
             link={"https://github.com/Jingyue-Wu/billow"}
             image={"/projects/billow.jpg"}
-          />
-        </FadeIn>
-
-        <FadeIn delay="delay-[300ms]">
-          <Section
-            name={"reverie"}
-            description={
-              "study and chill with pomodoro, cool art and customizable lofi audio"
-            }
-            link={"https://github.com/Jingyue-Wu/reverie"}
-            image={"/projects/reverie.png"}
           />
         </FadeIn>
 
@@ -180,30 +160,6 @@ export default function ProjectSection() {
             image={"/projects/bridge-up.png"}
           />
         </FadeIn>
-
-        {/* <FadeIn delay="delay-[800ms]">
-                                <Section
-                                    name={"doodleguesser"}
-                                    description={"multiplayer online drawing and guessing game"}
-                                    link={"https://github.com/Jingyue-Wu/doodle-guesser"}
-                                />
-                            </FadeIn> */}
-
-        {/* <FadeIn delay="delay-[900ms]">
-                                <Section
-                                    name={"game of life"}
-                                    description={"clean interface for conway's famous cellular automaton"}
-                                    link={"https://github.com/Jingyue-Wu/game-of-life"}
-                                />
-                            </FadeIn> */}
-
-        {/* <FadeIn delay="delay-[1000ms]">
-                                <Section
-                                    name={"diep"}
-                                    description={"minimalist single player 2D shooter"}
-                                    link={"https://github.com/Jingyue-Wu/diep-game"}
-                                />
-                            </FadeIn> */}
       </div>
     </>
   )
